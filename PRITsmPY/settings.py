@@ -88,12 +88,12 @@ WSGI_APPLICATION = 'PRITsmPY.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'HOST': '127.0.0.1',
-        'PORT': '5432',
-        'USER': 'postgres',
+        'PORT': '3306',
+        'USER': 'root',
         'PASSWORD': 'cisco123',
-        'NAME': 'book_42_01',
+        'NAME': 'PRITsmPY',
     }
 
 
