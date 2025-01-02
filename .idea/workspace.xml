@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6624a482-ab8c-4624-8151-c0caee199a7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PRITsmPY/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/PRITsmPY/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYPRmanage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYPRmanage/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,12 +86,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venvpri/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/PYPRmanage/admin.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PYPRmanage/apps.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -102,15 +103,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYPRmanage/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="228">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://0fc87628-49c8-475e-b996-2e66d96d79f3/database/postgres/extension/plpgsql">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -126,8 +122,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PRITsmPY/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="117">
+              <caret line="90" column="14" selection-start-line="88" selection-end-line="99" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -150,6 +146,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="qianchen1321 &lt;74651799+qianchen1321@users.noreply.github.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -163,16 +164,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PYPRmanage/models.py" />
         <option value="0fc87628-49c8-475e-b996-2e66d96d79f3/database/postgres/extension/plpgsql" />
         <option value="$PROJECT_DIR$/venvpri/.gitignore" />
         <option value="$PROJECT_DIR$/PRITsmPY/settings.py" />
+        <option value="$PROJECT_DIR$/PYPRmanage/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="101" />
-    <option name="y" value="336" />
+    <option name="x" value="905" />
+    <option name="y" value="185" />
     <option name="width" value="1940" />
     <option name="height" value="920" />
   </component>
@@ -197,7 +198,7 @@
             <path>
               <item name="PRITsmPY" type="b2602c69:ProjectViewProjectNode" />
               <item name="PRITsmPY" type="462c0819:PsiDirectoryNode" />
-              <item name="venvpri" type="462c0819:PsiDirectoryNode" />
+              <item name="PYPRmanage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,7 +217,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../openErp/django-erp-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -282,17 +283,31 @@
       <workItem from="1729074788701" duration="1358000" />
       <workItem from="1729759141494" duration="3661000" />
       <workItem from="1730271705395" duration="3435000" />
+      <workItem from="1730339061521" duration="1507000" />
+      <workItem from="1730356650917" duration="1100000" />
+      <workItem from="1730796015192" duration="967000" />
+      <workItem from="1732686221531" duration="18000" />
+      <workItem from="1732686261185" duration="25000" />
+      <workItem from="1732856048374" duration="2571000" />
+      <workItem from="1732861711763" duration="658000" />
     </task>
+    <task id="LOCAL-00001" summary="yes we now commit the branch withmysql20241030">
+      <created>1730278398704</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730278398704</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21206000" />
+    <option name="totallyTimeSpent" value="28378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,8 +321,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33002833" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info active="true" anchor="bottom" id="Eval Reset" order="13" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -319,6 +335,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yes we now commit the branch withmysql20241030" />
+    <option name="LAST_COMMIT_MESSAGE" value="yes we now commit the branch withmysql20241030" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b2d53766-fe21-493a-bf83-1ef775bcfd2f/console.sql">
@@ -351,17 +371,14 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0fc87628-49c8-475e-b996-2e66d96d79f3/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/PYPRmanage/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PYPRmanage/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PRITsmPY/asgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/manage.py" />
     <entry file="file://$PROJECT_DIR$/PYPRmanage/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://0fc87628-49c8-475e-b996-2e66d96d79f3/database/postgres/extension/plpgsql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venvpri/.gitignore">
@@ -372,16 +389,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PYPRmanage/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://0fc87628-49c8-475e-b996-2e66d96d79f3/database/postgres/extension/plpgsql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/6cd6c61d-e821-4358-aba5-80b0d48c77ac/console.sql">
@@ -399,10 +406,23 @@
     <entry file="file://$PROJECT_DIR$/PYPRmanage/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/PYPRmanage/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPRmanage/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PYPRmanage/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/PRITsmPY/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
+        <state relative-caret-position="117">
+          <caret line="90" column="14" selection-start-line="88" selection-end-line="99" selection-end-column="1" />
         </state>
       </provider>
     </entry>
