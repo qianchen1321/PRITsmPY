@@ -41,7 +41,9 @@ class project_devicelist(models.Model):
     Main_type = models.ForeignKey(project_orders, on_delete=models.CASCADE)
 
 
-
+class DeviceToRackInfo(models.Model):
+    Rackid = models.CharField(max_length=10, null=False, unique=True,primary_key=True)
+    Height = models.IntegerField()
 
 
 
