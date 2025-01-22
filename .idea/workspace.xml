@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6624a482-ab8c-4624-8151-c0caee199a7a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PYPRmanage/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYPRmanage/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYPRmanage/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYPRmanage/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,28 +85,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="779">
+              <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PYPRmanage/migrations/0002_auto_20241011_1120.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PYPRmanage/migrations/0004_auto_20241129_1411.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PYPRmanage/migrations/0005_devicetorackinfo.py">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venvpri/Lib/site-packages/django/utils/translation/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2375">
+              <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -132,19 +130,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PYPRmanage/models.py">
+        <entry file="file://$PROJECT_DIR$/venvpri/Lib/site-packages/django/utils/functional.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="1463">
+              <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PYPRmanage/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1140">
+              <caret line="63" column="81" selection-start-line="63" selection-start-column="81" selection-end-line="63" selection-end-column="81" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PRITsmPY/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="88" column="13" selection-start-line="88" selection-end-line="99" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -183,17 +193,16 @@
         <option value="0fc87628-49c8-475e-b996-2e66d96d79f3/database/postgres/extension/plpgsql" />
         <option value="$PROJECT_DIR$/venvpri/.gitignore" />
         <option value="$PROJECT_DIR$/PRITsmPY/settings.py" />
-        <option value="$PROJECT_DIR$/PYPRmanage/models.py" />
         <option value="$PROJECT_DIR$/PYPRmanage/admin.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/PYPRmanage/models.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="25" />
-    <option name="y" value="21" />
-    <option name="width" value="2910" />
-    <option name="height" value="1105" />
+    <option name="x" value="235" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -201,7 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,12 +219,23 @@
             </path>
             <path>
               <item name="PRITsmPY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRITsmPY" type="462c0819:PsiDirectoryNode" />
+              <item name="PRITsmPY" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRITsmPY" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRITsmPY" type="462c0819:PsiDirectoryNode" />
+              <item name="PYPRmanage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRITsmPY" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +324,9 @@
       <workItem from="1735806727192" duration="1467000" />
       <workItem from="1735896939475" duration="6338000" />
       <workItem from="1735930194025" duration="2319000" />
-      <workItem from="1737087403886" duration="139000" />
+      <workItem from="1737087403886" duration="4775000" />
+      <workItem from="1737437067927" duration="3689000" />
+      <workItem from="1737532629438" duration="686000" />
     </task>
     <task id="LOCAL-00001" summary="yes we now commit the branch withmysql20241030">
       <created>1730278398704</created>
@@ -335,16 +356,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735899917839</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="start make make clean app in 20250117 12:19">
+      <created>1737087569487</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737087569488</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38641000" />
+    <option name="totallyTimeSpent" value="47652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30965146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31769437" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -358,8 +386,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="Eval Reset" order="13" visible="true" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -367,7 +395,7 @@
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3297587" />
       <window_info anchor="right" id="SciView" order="4" weight="0.3297587" />
       <window_info anchor="right" id="make" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.19034852" />
+      <window_info anchor="right" id="Database" order="6" weight="0.19034852" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +406,8 @@
     <MESSAGE value="start in 2025-01-02" />
     <MESSAGE value="start make rackinfo app in 20250103 17:36" />
     <MESSAGE value="start make make clean app in 20250103 18:25" />
-    <option name="LAST_COMMIT_MESSAGE" value="start make make clean app in 20250103 18:25" />
+    <MESSAGE value="start make make clean app in 20250117 12:19" />
+    <option name="LAST_COMMIT_MESSAGE" value="start make make clean app in 20250117 12:19" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b2d53766-fe21-493a-bf83-1ef775bcfd2f/console.sql">
@@ -457,8 +486,22 @@
     <entry file="file://$PROJECT_DIR$/PYPRmanage/migrations/0004_auto_20241129_1411.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PYPRmanage/migrations/0005_devicetorackinfo.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venvpri/Lib/site-packages/django/utils/translation/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2375">
+          <caret line="132" column="17" selection-start-line="132" selection-start-column="17" selection-end-line="132" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PYPRmanage/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -477,10 +520,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/venvpri/Lib/site-packages/django/utils/functional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PYPRmanage/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="1140">
+          <caret line="63" column="81" selection-start-line="63" selection-start-column="81" selection-end-line="63" selection-end-column="81" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -492,15 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PRITsmPY/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="88" column="13" selection-start-line="88" selection-end-line="99" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+        <state relative-caret-position="228">
+          <caret line="96" column="5" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
         </state>
       </provider>
     </entry>
