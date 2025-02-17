@@ -33,13 +33,13 @@ class project_orders(models.Model):
     ]
 
     #Purchase_OrderId = models.AutoField(primary_key=True)
-    Main_type = models.CharField(max_length=20, null=False, unique=True, primary_key=True)
+    Main_type = models.CharField(max_length=30, null=False, unique=True, primary_key=True)
     Business_type = models.CharField(max_length=20, null=False)
     Brand = models.CharField(max_length=10, null=False)
     Device_config = models.CharField(max_length=500, null=False)
     Quantity_require = models.IntegerField(null=False)
     unitType = models.CharField(max_length=5, choices=unit_choice, default=HOSTUNIT)
-    Power = models.IntegerField(null=True)
+    Power_supply = models.IntegerField(null=True)
     PowerUnit = models.CharField(max_length=10, choices=power_unit_choice, default=POWERUNIT)
 
 class project_devicelist(models.Model):
